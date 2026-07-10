@@ -45,13 +45,27 @@ This curriculum is structured from foundational concepts to specialized, interns
     *   Adds a one-time constant semester fee of $200.
     *   Applies a 10% junior discount to the total if the student is under 18.
 
-### 🟢 Day 2: Boolean Logic & Complex Conditionals
-**Concepts Applied:** Logical operators (`and`, `or`, `not`), conditional statements, complex validation.
+### 🟢 Day 2: Data Types & Variables
+**Concepts Applied:** Dynamic typing, type conversion, constants, and complex mathematical formatting.
+
+*   **Capstone Project - Student Fee Calculator:** Developed a CLI program that generates a formatted semester invoice.
+    *   Takes user input for name, age, and enrolled credit hours.
+    *   Calculates tuition using a constant rate of $850 per credit hour.
+    *   Adds a one-time constant semester fee of $200.
+    *   Applies a 10% junior discount to the total if the student is under 18.
+
+### 🟢 Day 3: Arithmetic Operators & Boolean Logic
+**Concepts Applied:** Arithmetic operators, comparison operators, and complex boolean expressions.
 
 *   **Capstone Project - UTD Scholarship Eligibility Checker:** Created a logic-heavy evaluation program that determines scholarship awards based on strict criteria.
     *   **Rules implemented:** GPA must be 3.5 or above, at least 30 credit hours completed, age between 17 and 25 (inclusive), and zero academic violations.
     *   **Logic:** Eligibility is calculated on a single line utilizing `and`, `or`, and `not` operators.
     *   **Calculation:** If eligible, the award amount is calculated by multiplying credit hours by a constant scholarship rate of $150. If not eligible, the award defaults to $0.
 
-### 🟡 Day 3: In Progress...
-*Currently working on the next set of challenges!*
+### 🟢 Day 4: Control Flow & Complex Logic
+**Concepts Applied:** `if` / `elif` / `else` statements, nested conditionals, ternary expressions, boolean logic.
+
+*   **Capstone Project - Airport Check-in System:** Built a robust CLI program to handle full passenger processing with strict rule enforcement.
+    *   Implemented conditional baggage fee calculations including overweight penalties and a strict maximum bag limit.
+    *   Engineered nested logic to determine seat upgrade eligibility based on loyalty tier and flight duration.
+    *   Created a hard-stop boarding verification system checking valid passports and no-fly lists before processing any further logic.
