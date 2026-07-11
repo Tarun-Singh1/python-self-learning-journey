@@ -69,3 +69,12 @@ This curriculum is structured from foundational concepts to specialized, interns
     *   Implemented conditional baggage fee calculations including overweight penalties and a strict maximum bag limit.
     *   Engineered nested logic to determine seat upgrade eligibility based on loyalty tier and flight duration.
     *   Created a hard-stop boarding verification system checking valid passports and no-fly lists before processing any further logic.
+
+### 🟢 Day 5: Loops & Iteration
+**Concepts Applied:** `for` loops, `while` loops, the `range()` function, and utilizing external modules.
+
+* **Capstone Project - Number Guessing Game (Roast Edition):** Developed an interactive, loop-driven CLI game where the user has 7 attempts to guess a randomly generated number between 1 and 100.
+    * Integrated the `random` module to generate a secure secret number.
+    * Implemented a `for` loop to enforce strict turn limits and iterate through the user's attempts.
+    * Engineered tiered conditional logic to dynamically "roast" the user based on the numerical distance between their guess and the secret number.
+    * Created targeted win/loss conditions that output custom messages based on the exact iteration the loop was broken.
