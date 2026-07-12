@@ -78,3 +78,11 @@ This curriculum is structured from foundational concepts to specialized, interns
     * Implemented a `for` loop to enforce strict turn limits and iterate through the user's attempts.
     * Engineered tiered conditional logic to dynamically "roast" the user based on the numerical distance between their guess and the secret number.
     * Created targeted win/loss conditions that output custom messages based on the exact iteration the loop was broken.
+
+### 🟢 Day 6: Strings in Detail
+**Concepts Applied:** Advanced string manipulation, string methods (`.lower()`, `.isalnum()`, `.isdigit()`, `.strip()`, `.replace()`), string indexing, and membership operators.
+
+* **Capstone Project - Username Validator & Generator:** Built a backend-style signup validation system that checks user input against strict security rules and auto-generates clean alternatives.
+    * Enforced comprehensive validation rules: length constraints, alphanumeric restrictions, banned word lists, and blocked prefixes.
+    * Engineered an auto-correction algorithm to sanitize invalid inputs by stripping whitespace, replacing invalid characters, and dynamically appending safe prefixes/suffixes based on the specific validation failure.
+    * Utilized membership (`in`) and boolean logic to evaluate multiple failure conditions simultaneously rather than stopping at the first error.
