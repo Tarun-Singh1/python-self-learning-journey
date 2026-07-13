@@ -86,3 +86,17 @@ This curriculum is structured from foundational concepts to specialized, interns
     * Enforced comprehensive validation rules: length constraints, alphanumeric restrictions, banned word lists, and blocked prefixes.
     * Engineered an auto-correction algorithm to sanitize invalid inputs by stripping whitespace, replacing invalid characters, and dynamically appending safe prefixes/suffixes based on the specific validation failure.
     * Utilized membership (`in`) and boolean logic to evaluate multiple failure conditions simultaneously rather than stopping at the first error.
+
+---
+
+## 📖 Chapter 2: Data Structures
+*Transitioning from basic variables to structured data collections, starting with lists and mutability.*
+
+### 🟢 Day 7: Lists & Complex Iteration
+**Concepts Applied:** Lists, string-to-list conversion, nested loops, state tracking, and edge-case handling.
+
+* **Capstone Project - Wordle (CLI Edition):** Built a fully functional, terminal-based clone of the game Wordle.
+    * Implemented character-by-character evaluation using lists to determine exact matches (`✓`), partial matches (`?`), and incorrect letters (`✗`).
+    * Engineered advanced validation logic to accurately handle duplicate letters without double-counting (ensuring a guess with multiple identical letters only triggers partial matches if the secret word actually contains multiples).
+    * Created a persistent game state that stores and prints the history of all previous guesses above the current prompt.
+    * Added input sanitization to reject invalid guess lengths without penalizing the player's attempt count.
