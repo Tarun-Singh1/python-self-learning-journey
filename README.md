@@ -100,3 +100,13 @@ This curriculum is structured from foundational concepts to specialized, interns
     * Engineered advanced validation logic to accurately handle duplicate letters without double-counting (ensuring a guess with multiple identical letters only triggers partial matches if the secret word actually contains multiples).
     * Created a persistent game state that stores and prints the history of all previous guesses above the current prompt.
     * Added input sanitization to reject invalid guess lengths without penalizing the player's attempt count.
+
+### 🟢 Day 8: Tuples & Immutability
+**Concepts Applied:** `tuple`, `collections.namedtuple`, tuple unpacking, state management, and input validation.
+
+* **Capstone Project - Pokémon Battle Simulator:** Developed a turn-based, two-player CLI battle game utilizing immutable data structures to manage character stats.
+    * Structured the Pokémon roster using `namedtuple` to securely store base attributes (Name, Max HP, Attack, Defense).
+    * Grouped individual attacks as lists of tuples `(Name, Power, Accuracy)` and seamlessly extracted them during combat using tuple unpacking.
+    * Engineered a dynamic combat loop that tracks real-time HP in a separate variable to respect the immutability of the base `namedtuple`.
+    * Implemented RNG-based accuracy checks and a scaling damage formula `max(1, power + atk - def)`.
+    * Built robust input validation loops to ensure players can only select valid roster numbers and move options without crashing the program.
