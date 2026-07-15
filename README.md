@@ -110,3 +110,12 @@ This curriculum is structured from foundational concepts to specialized, interns
     * Engineered a dynamic combat loop that tracks real-time HP in a separate variable to respect the immutability of the base `namedtuple`.
     * Implemented RNG-based accuracy checks and a scaling damage formula `max(1, power + atk - def)`.
     * Built robust input validation loops to ensure players can only select valid roster numbers and move options without crashing the program.
+
+### 🟢 Day 9: Mastering Data Processing & Tuple Unpacking
+**Concepts Applied:** Advanced iteration, tuple unpacking, conditional filtering, and list sorting.
+
+* **Project - Student Academic Tracker:** Built an academic performance processing system to categorize students based on GPA and credit requirements.
+    * Leveraged tuple unpacking `(name, gpa, credits)` directly within a `for` loop to cleanly access data.
+    * Implemented dual-criteria filtering logic to identify students for "Honors" and "Academic Support" categories.
+    * Mastered list sorting with custom parameters to display GPA rankings in descending order for Honors and ascending order for Support.
+    * Demonstrated the ability to process raw data collections into organized, actionable reports.
