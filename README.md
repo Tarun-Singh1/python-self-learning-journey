@@ -119,3 +119,12 @@ This curriculum is structured from foundational concepts to specialized, interns
     * Implemented dual-criteria filtering logic to identify students for "Honors" and "Academic Support" categories.
     * Mastered list sorting with custom parameters to display GPA rankings in descending order for Honors and ascending order for Support.
     * Demonstrated the ability to process raw data collections into organized, actionable reports.
+
+### 🟢 Day 10: Dictionaries & Data Aggregation
+**Concepts Applied:** `dict`, `collections.defaultdict`, key-value mapping, and multi-pass data analysis.
+
+* **Capstone Project - CS Grade Analyzer:** Developed a robust department-wide reporting system to process complex enrollment data using dictionary-based grouping.
+    * Mastered `defaultdict(list)` to aggregate scores by student and by course, enabling efficient one-pass grouping of unstructured data.
+    * Implemented multi-layered analysis: computed individual GPA averages/letter grades, ranked course difficulty, identified top performers, and flagged at-risk students.
+    * Engineered a "Department Stats" module that calculates global metrics, including identifying outliers (highest/lowest grades) across all students and courses.
+    * Ensured the system is fully dynamic; the logic processes enrollment data regardless of student count, course count, or specific names, proving the scalability of the code.
