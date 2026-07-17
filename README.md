@@ -128,3 +128,12 @@ This curriculum is structured from foundational concepts to specialized, interns
     * Implemented multi-layered analysis: computed individual GPA averages/letter grades, ranked course difficulty, identified top performers, and flagged at-risk students.
     * Engineered a "Department Stats" module that calculates global metrics, including identifying outliers (highest/lowest grades) across all students and courses.
     * Ensured the system is fully dynamic; the logic processes enrollment data regardless of student count, course count, or specific names, proving the scalability of the code.
+
+### 🟢 Day 11: Sets & Network Analysis
+**Concepts Applied:** `set`, intersections (`&`), unions (`|`), differences (`-`), and boolean logic for relationship mapping.
+
+* **Capstone Project - Spy Network Analyzer:** Engineered an intelligence reporting system to analyze agent networks, movement patterns, and security risks.
+    * Mastered set operations to perform complex network analysis: used intersections to identify mutual contacts and shared locations, and set differences to pinpoint "clean" vs "burned" cities.
+    * Implemented exposure risk assessment by calculating compromised contact counts for each agent using set intersections.
+    * Automated the detection of covert cells by identifying 3-agent cliques where all members mutually contain one another in their contact sets.
+    * Designed an isolation-tracking algorithm to rank assets based on location overlap, providing a metric for operational security.
