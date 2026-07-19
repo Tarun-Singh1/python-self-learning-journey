@@ -144,3 +144,12 @@ This curriculum is structured from foundational concepts to specialized, interns
 * **Activity:** Dedicated time to reviewing previous Capstone projects and solidifying the logic behind `defaultdict` and Set operations.
 * **Objective:** Refined my understanding of data structure selection, ensuring I know not just "how" to code a structure, but "why" and "when" to choose one over the other for performance and readability.
 * **Outcome:** Improved confidence in navigating Python’s core collections and cleared up lingering questions from Chapters 1 and 2.
+
+### 🟢 Day 13: Functions & Modular Architecture
+**Concepts Applied:** Functional programming, parameter passing, return statements, state management (using dictionaries), and algorithmic game design.
+
+* **Capstone Project - Dungeon RPG:** Engineered a complex text-based RPG from scratch, utilizing a modular functional architecture where no function exceeds 15 lines of code.
+    * Implemented a data-driven system using dictionaries to manage character and monster states (HP, Attack, Speed, Inventory).
+    * Built a robust combat engine using pure functions for damage calculation, turn-based logic, and RNG-based combat outcomes.
+    * Designed a scalable dungeon traversal system where monster difficulty and loot drops automatically scale with the floor number.
+    * Mastered function composition by building a top-level `run_game()` driver that coordinates disparate gameplay logic into a cohesive experience.
